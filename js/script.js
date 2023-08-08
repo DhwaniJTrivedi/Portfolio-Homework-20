@@ -8,6 +8,14 @@ $(document).ready(function() {
     offset: '90%', // Adjust this value as needed
   });
 });
+ScrollReveal().reveal('.jumbotron', {
+  duration: 1000,     // Animation duration in milliseconds
+  origin: 'bottom',   // Animation origin (can be 'top', 'right', 'bottom', or 'left')
+  distance: '20%',    // Distance the element moves while animating
+  delay: 200,         // Delay before the animation starts in milliseconds
+  opacity: 0.8,       // Starting opacity
+  easing: 'ease-in',  // Easing function for animation
+});
 $(document).ready(function() {
   $('.navbar-toggler').on('click', function() {
     $('#navbarSupportedContent').collapse('toggle');

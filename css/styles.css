@@ -5,6 +5,9 @@ font-family: 'Open Sans', sans-serif;
 font-family: "Questrial";
 
 }
+html {
+  scroll-behavior: smooth;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Borel", sans-serif;
   font-weight: 400;
