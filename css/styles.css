@@ -5,7 +5,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: "Questrial";
 
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Borel", sans-serif;
+  font-weight: 400;
+  color: purple;
+}
 
 .progress {
   position: fixed; 
